@@ -33,7 +33,7 @@ jobs:
       run: yarn build
     - name: Install Surge
       run: npm Install -global surge
-    - name: Deploy to Surge
+    - name: Run Surge
       run: surge ./build rehabreactappdeployment002.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
        
