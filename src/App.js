@@ -7,7 +7,7 @@ function App() {
   
   return(
     <div ClassName='App'>
-      <Dinner />
+      <Dinner DishName='Biryani' DessertName='Kulfi' DrinksName='Coca Cola, Tang'/>
     </div>
   )
     

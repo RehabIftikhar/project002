@@ -1,9 +1,13 @@
 import React from 'react'
 
 
-function Dinner() {
+function Dinner(props) {
     return (
-        <h2>Today there is nothing to eat</h2>
+        <div>
+            <h2>Today there is {props.DishName} in dinner</h2>
+            <h3>Today we are serving {props.DessertName} in dessert</h3>
+            <h3>Today we are serving {props.DrinksName} in drinks</h3>
+        </div>
     )
 }
 export default Dinner
