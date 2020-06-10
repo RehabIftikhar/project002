@@ -8,6 +8,10 @@ function App() {
   return(
     <div ClassName='App'>
       <Dinner DishName='Biryani' DessertName='Kulfi' DrinksName='Coca Cola, Tang'/>
+      <hr />
+      <Dinner DishName='Chicken  Karahi' DessertName='Halwa' DrinksName='Chai'/>
+      <hr />
+      <Dinner DishName='Qourma' DessertName='Icecream' DrinksName='Coffee'/>
     </div>
   )
     
